@@ -1,0 +1,42 @@
+{
+  "name": "folder-code-stats",
+  "displayName": "Folder Code Stats",
+  "description": "统计指定文件夹的文件数和代码行数,并生成Markdown和JSON报告。",
+  "version": "1.0.0",
+  "publisher": "袁果锅",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "command:fileStats.generateStats"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "fileStats.generateStats",
+        "title": "统计文件夹文件数和代码行数",
+        "category": "文件统计"
+      }
+    ],
+    "menus": {
+      "commandPalette": [
+        {
+          "command": "fileStats.generateStats",
+          "group": "navigation"
+        }
+      ],
+      "explorer/context": [
+        {
+          "command": "fileStats.generateStats",
+          "when": "explorerResourceIsFolder == true",
+          "group": "navigation"
+        }
+      ]
+    }
+  }
+}
+
