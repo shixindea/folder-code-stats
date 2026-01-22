@@ -21,31 +21,6 @@
 
 ---
 
-## 安装
-
-1. 克隆仓库：
-
-```bash
-git clone https://github.com/shixindea/folder-code-stats.git
-cd folder-code-stats
-```
-
-2. 在 VS Code 中打开该文件夹：
-
-```bash
-code .
-```
-
-3. 安装依赖（如果需要）：
-
-```bash
-npm install
-```
-
-4. 按下 `F5` 进入 VS Code 扩展开发宿主环境，调试运行插件。
-
----
-
 ## 使用方法
 
 插件提供一个命令：**“统计文件夹文件数和代码行数”**。
@@ -68,7 +43,31 @@ npm install
 2. 右键点击该文件夹。
 3. 选择菜单项：**“统计文件夹文件数和代码行数”**。
 4. 插件将以该文件夹为根目录进行统计。
+![](https://aliyxd.oss-cn-beijing.aliyuncs.com/202601220942143.gif)
+---
 
+## 安装
+
+1. 克隆仓库：
+
+```bash
+git clone https://github.com/shixindea/folder-code-stats.git
+cd folder-code-stats
+```
+
+2. 在 VS Code 中打开该文件夹：
+
+```bash
+code .
+```
+
+3. 安装依赖（如果需要）：
+
+```bash
+npm install
+```
+
+4. 按下 `F5` 进入 VS Code 扩展开发宿主环境，调试运行插件。
 ---
 
 ## 统计结果说明

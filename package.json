@@ -2,7 +2,7 @@
   "name": "folder-code-stats",
   "displayName": "Folder Code Stats",
   "description": "统计指定文件夹的文件数和代码行数,并生成Markdown和JSON报告。",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "yuanguoguo",
   "engines": {
     "vscode": "^1.80.0"
